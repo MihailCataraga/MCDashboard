@@ -1,0 +1,30 @@
+:root{
+    --background-color: #0c112a;
+    --background-color-transparent: #0c112a60;
+    --icon-background-color: #005ecc;
+    --icon-background-color-dark: #15192c;
+    --icon-color: #7ea7d9;
+    --color-gray: #88878f;
+    --color: #d1d1d6;
+    --color-white: white;
+}
+body{
+    background-image: url("../../public/img/body-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    .right{
+        margin-left: 280px;
+        padding: 0;
+    }
+}
+@import "./partition/navbar.scss";
+@import "./partition/sidebar.scss";
+@import "./partition/contDashboard.scss";
+@import "./partition/contTables.scss";
+@import "./partition/contBiling.scss";
+@import "./partition/contSettings.scss";
+
+@import "./partition/footer.scss";
