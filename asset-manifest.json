@@ -1,16 +1,31 @@
 {
   "files": {
     "main.css": "/MCDashboard/static/css/main.3178129a.css",
-    "main.js": "/MCDashboard/static/js/main.8786a162.js",
+    "main.js": "/MCDashboard/static/js/main.c75aebdd.js",
     "static/media/body-background.png": "/MCDashboard/static/media/body-background.9e7d96f6af5373ca1771.png",
+    "static/media/avatar2.png": "/MCDashboard/static/media/avatar2.b8132c3c3e173e102344.png",
+    "static/media/avatar3.png": "/MCDashboard/static/media/avatar3.4d26ce02004a4cd4655b.png",
+    "static/media/avatar5.png": "/MCDashboard/static/media/avatar5.ffd2f0d1dd8652201bc2.png",
+    "static/media/avatar1.png": "/MCDashboard/static/media/avatar1.1d9e197816db0b5886c1.png",
+    "static/media/avatar6.png": "/MCDashboard/static/media/avatar6.ce4b99ea9b5fda686e3d.png",
+    "static/media/avatar4.png": "/MCDashboard/static/media/avatar4.2a4ba26ccb999bc77825.png",
     "static/media/welcome-profile.png": "/MCDashboard/static/media/welcome-profile.309ed05e3af3dbed8af1.png",
     "static/media/cardimgfree.png": "/MCDashboard/static/media/cardimgfree.5771cbbb24b706daa64a.png",
+    "static/media/profile-2.png": "/MCDashboard/static/media/profile-2.9c96bf403a3e3cf5de26.png",
+    "static/media/profile-1.png": "/MCDashboard/static/media/profile-1.b93e4339963d91504288.png",
+    "static/media/profile-3.png": "/MCDashboard/static/media/profile-3.bc1975301e7abf84f059.png",
+    "static/media/logo-slack.svg": "/MCDashboard/static/media/logo-slack.383191accd19b0d5d17c2e84a9923d6d.svg",
+    "static/media/logo-xd.svg": "/MCDashboard/static/media/logo-xd.b09b6daa79158848f78b3271f72f823e.svg",
+    "static/media/logo-invision.svg": "/MCDashboard/static/media/logo-invision.78bd59015b999fe56e105fc02c5f1a52.svg",
+    "static/media/logo-spotify.svg": "/MCDashboard/static/media/logo-spotify.88c0d071630c966aa8887a796bb3114d.svg",
+    "static/media/logo-jira.svg": "/MCDashboard/static/media/logo-jira.2883b459bbefebfc4adc83630679544c.svg",
+    "static/media/logo-atlassian.svg": "/MCDashboard/static/media/logo-atlassian.44a0c253811ba00e5a8a6d7cf8d1cfb6.svg",
     "index.html": "/MCDashboard/index.html",
     "main.3178129a.css.map": "/MCDashboard/static/css/main.3178129a.css.map",
-    "main.8786a162.js.map": "/MCDashboard/static/js/main.8786a162.js.map"
+    "main.c75aebdd.js.map": "/MCDashboard/static/js/main.c75aebdd.js.map"
   },
   "entrypoints": [
     "static/css/main.3178129a.css",
-    "static/js/main.8786a162.js"
+    "static/js/main.c75aebdd.js"
   ]
 }
