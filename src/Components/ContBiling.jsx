@@ -10,6 +10,13 @@ import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import Avatar1 from '../assets/img/avatar1.png';
+import Avatar2 from '../assets/img/avatar2.png';
+import Avatar3 from '../assets/img/avatar3.png';
+import Avatar4 from '../assets/img/avatar4.png';
+import Profile1 from '../assets/img/profile-1.png';
+import Profile2 from '../assets/img/profile-2.png';
+import Profile3 from '../assets/img/profile-3.png';
 
 const ContBiling = () => {
     const data = [
@@ -64,73 +71,73 @@ const ContBiling = () => {
     ]
     const types = [
         {
-            img: '/img/profile-1.png',
+            img: Profile1,
             number: 'Project #2',
             type: 'Modern',
             description: 'As Uber works through a huge amount of internal management turmoil.',
             users: [
                 {
-                    img: '/img/avatar1.png',
+                    img: Avatar1,
                     name: 'Elena Morison'
                 },
                 {
-                    img: '/img/avatar2.png',
+                    img: Avatar2,
                     name: 'Ryan Milly'
                 },
                 {
-                    img: '/img/avatar3.png',
+                    img: Avatar3,
                     name: 'Nick Daniel'
                 },
                 {
-                    img: '/img/avatar4.png',
+                    img: Avatar4,
                     name: 'Peterson'
                 }
             ]
         },
         {
-            img: '/img/profile-2.png',
+            img: Profile2,
             number: 'Project #1',
             type: 'Scandinavian',
             description: 'Music is something that every person has his or her own specific opinion about.',
             users: [
                 {
-                    img: '/img/avatar3.png',
+                    img: Avatar3,
                     name: 'Nick Daniel'
                 },
                 {
-                    img: '/img/avatar4.png',
+                    img: Avatar4,
                     name: 'Peterson'
                 },
                 {
-                    img: '/img/avatar1.png',
+                    img: Avatar1,
                     name: 'Elena Morison'
                 },
                 {
-                    img: '/img/avatar2.png',
+                    img: Avatar2,
                     name: 'Ryan Milly'
                 }
             ]
         },
         {
-            img: '/img/profile-3.png',
+            img: Profile3,
             number: 'Project #3',
             type: 'Minimalist',
             description: 'Different people have different taste, and various types of music.',
             users: [
                 {
-                    img: '/img/avatar4.png',
+                    img: Avatar4,
                     name: 'Peterson'
                 },
                 {
-                    img: '/img/avatar3.png',
+                    img: Avatar3,
                     name: 'Nick Daniel'
                 },
                 {
-                    img: '/img/avatar2.png',
+                    img: Avatar2,
                     name: 'Ryan Milly'
                 },
                 {
-                    img: '/img/avatar1.png',
+                    img: Avatar1,
                     name: 'Elena Morison'
                 }
             ]

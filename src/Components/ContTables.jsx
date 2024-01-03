@@ -1,11 +1,23 @@
 import React from 'react'
 import { Line } from 'rc-progress';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import Avatar1 from '../assets/img/avatar1.png';
+import Avatar2 from '../assets/img/avatar2.png';
+import Avatar3 from '../assets/img/avatar3.png';
+import Avatar4 from '../assets/img/avatar4.png';
+import Avatar5 from '../assets/img/avatar5.png';
+import Avatar6 from '../assets/img/avatar6.png';
+import logoXd from '../assets/img/small-logos/logo-xd.svg';
+import logoAtlassian from '../assets/img/small-logos/logo-atlassian.svg';
+import logoSlack from '../assets/img/small-logos/logo-slack.svg';
+import logoSpotify from '../assets/img/small-logos/logo-spotify.svg';
+import logoJira from '../assets/img/small-logos/logo-jira.svg';
+import logoInvision from '../assets/img/small-logos/logo-invision.svg';
 
 const ContTables = () => {
     const authors = [
         {
-            img: '/img/avatar4.png',
+            img: Avatar4,
             name: 'Esthera Jackson',
             email: 'esthera@simmmple.com',
             function: 'Manager',
@@ -14,7 +26,7 @@ const ContTables = () => {
             employed: '23/04/18'
         },
         {
-            img: '/img/avatar2.png',
+            img: Avatar2,
             name: 'Alexa Liras',
             email: 'alexa@simmmple.com',
             function: 'Programator',
@@ -23,7 +35,7 @@ const ContTables = () => {
             employed: '11/01/19'
         },
         {
-            img: '/img/avatar3.png',
+            img: Avatar3,
             name: 'Laurent Michael',
             email: 'laurent@simmmple.com',
             function: 'Executive',
@@ -32,7 +44,7 @@ const ContTables = () => {
             employed: '19/09/17'
         },
         {
-            img: '/img/avatar1.png',
+            img: Avatar1,
             name: 'Freduardo Hill',
             email: 'freduardo@simmmple.com',
             function: 'Programator',
@@ -41,7 +53,7 @@ const ContTables = () => {
             employed: '24/12/08'
         },
         {
-            img: '/img/avatar5.png',
+            img: Avatar5,
             name: 'Daniel Thomas',
             email: 'daniel@simmmple.com',
             function: 'Manager',
@@ -50,7 +62,7 @@ const ContTables = () => {
             employed: '04/10/21'
         },
         {
-            img: '/img/avatar6.png',
+            img: Avatar6,
             name: 'Mark Wilson',
             email: 'mark@simmmple.com',
             function: 'Programtor',
@@ -61,35 +73,35 @@ const ContTables = () => {
     ]
     const projects = [
         {
-            img: '/img/small-logos/logo-xd.svg',
+            img: logoXd,
             title: 'Chakra Vision UI Version',
             budget: '$14,000',
             status: 'Working',
             percent: 60,
         },
         {
-            img: '/img/small-logos/logo-atlassian.svg',
+            img: logoAtlassian,
             title: 'Add Progress Track',
             budget: '$3,000',
             status: 'Done',
             percent: 100,
         },
         {
-            img: '/img/small-logos/logo-slack.svg',
+            img: logoSlack,
             title: 'Fix Platform Errors',
             budget: 'Not set',
             status: 'Canceled',
             percent: 30,
         },
         {
-            img: '/img/small-logos/logo-spotify.svg',
+            img: logoSpotify,
             title: 'Launch our Mobile App',
             budget: '$32,000',
             status: 'Canceled',
             percent: 0,
         },
         {
-            img: '/img/small-logos/logo-jira.svg',
+            img: logoJira,
             title: 'Add the New Pricing Page',
             budget: '$2,300',
             status: 'Done',

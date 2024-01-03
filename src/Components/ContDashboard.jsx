@@ -18,6 +18,16 @@ import HtmlIcon from '@mui/icons-material/Html';
 import PaidIcon from '@mui/icons-material/Paid';
 import AddCardIcon from '@mui/icons-material/AddCard';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import Avatar1 from '../assets/img/avatar1.png';
+import Avatar2 from '../assets/img/avatar2.png';
+import Avatar3 from '../assets/img/avatar3.png';
+import Avatar4 from '../assets/img/avatar4.png';
+import logoXd from '../assets/img/small-logos/logo-xd.svg';
+import logoAtlassian from '../assets/img/small-logos/logo-atlassian.svg';
+import logoSlack from '../assets/img/small-logos/logo-slack.svg';
+import logoSpotify from '../assets/img/small-logos/logo-spotify.svg';
+import logoJira from '../assets/img/small-logos/logo-jira.svg';
+import logoInvision from '../assets/img/small-logos/logo-invision.svg';
 
 const ContDashboard = () => {
   const stats = [
@@ -174,23 +184,23 @@ const ContDashboard = () => {
   ]
   const rows = [
     {
-      logo: 'img/small-logos/logo-xd.svg',
+      logo: logoXd,
       name: 'Chakra Vision UI Version',
       member: [
         {
-          img: 'img/avatar1.png',
+          img: Avatar1,
           name: 'Ryan Tompson'
         },
         {
-          img: 'img/avatar2.png',
+          img: Avatar2,
           name: 'Romina Hadid'
         },
         {
-          img: 'img/avatar3.png',
+          img: Avatar3,
           name: 'Alexander Smith'
         },
         {
-          img: 'img/avatar4.png',
+          img: Avatar4,
           name: 'Jessica Doe'
         }
       ],
@@ -198,15 +208,15 @@ const ContDashboard = () => {
       percent: 60
     },
     {
-      logo: 'img/small-logos/logo-atlassian.svg',
+      logo: logoAtlassian,
       name: 'Add Progress Track',
       member: [
         {
-          img: 'img/avatar2.png',
+          img: Avatar2,
           name: 'Romina Hadid'
         },
         {
-          img: 'img/avatar4.png',
+          img: Avatar4,
           name: 'Jessica Doe'
         }
       ],
@@ -214,15 +224,15 @@ const ContDashboard = () => {
       percent: 10
     },
     {
-      logo: 'img/small-logos/logo-slack.svg',
+      logo: logoSlack,
       name: 'Fix Platform Errors',
       member: [
         {
-          img: 'img/avatar1.png',
+          img: Avatar1,
           name: 'Ryan Tompson'
         },
         {
-          img: 'img/avatar3.png',
+          img: Avatar3,
           name: 'Alexander Smith'
         }
       ],
@@ -230,23 +240,23 @@ const ContDashboard = () => {
       percent: 100
     },
     {
-      logo: 'img/small-logos/logo-spotify.svg',
+      logo: logoSpotify,
       name: 'Launch our Mobile App',
       member: [
         {
-          img: 'img/avatar4.png',
+          img: Avatar4,
           name: 'Jessica Doe'
         },
         {
-          img: 'img/avatar3.png',
+          img: Avatar3,
           name: 'Alexander Smith'
         },
         {
-          img: 'img/avatar2.png',
+          img: Avatar2,
           name: 'Romina Hadid'
         },
         {
-          img: 'img/avatar1.png',
+          img: Avatar1,
           name: 'Ryan Tompson'
         }
       ],
@@ -254,11 +264,11 @@ const ContDashboard = () => {
       percent: 100
     },
     {
-      logo: 'img/small-logos/logo-jira.svg',
+      logo: logoJira,
       name: 'Add the New Pricing Page',
       member: [
         {
-          img: 'img/avatar1.png',
+          img: Avatar1,
           name: 'Ryan Tompson'
         }
       ],
@@ -266,15 +276,15 @@ const ContDashboard = () => {
       percent: 25
     },
     {
-      logo: 'img/small-logos/logo-invision.svg',
+      logo: logoInvision,
       name: 'Redesign New Online Shop',
       member: [
         {
-          img: 'img/avatar4.png',
+          img: Avatar4,
           name: 'Jessica Doe'
         },
         {
-          img: 'img/avatar1.png',
+          img: Avatar1,
           name: 'Ryan Tompson'
         }
       ],
