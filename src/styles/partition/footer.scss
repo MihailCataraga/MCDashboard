@@ -1,0 +1,36 @@
+.footer{
+    margin: 0 8px 20px 40px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    p{
+        color: var(--color-white);
+        display: flex;
+        align-items: center;
+        font-size: .9em;
+        .icon{
+            color: red;
+            font-size: 1.2em;
+        }
+        span{
+            font-weight: 600;
+            cursor: pointer;
+        }
+    }
+    .right{
+        display: flex;
+        justify-content: space-between;
+        h3{
+            margin-right: 30px;
+            color: var(--color-white);
+            font-size: 1em;
+            font-weight: 500;
+            cursor: pointer;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+    }
+}

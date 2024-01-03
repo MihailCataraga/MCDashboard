@@ -1,0 +1,21 @@
+.settings{
+    margin: 0 8px 20px 40px;
+    padding: 120px 0 0 0;
+    .info{
+        border: 2px solid var(--icon-background-color-dark);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20% 0;
+        margin-bottom: 30px;
+        h1{
+            color: var(--color-white);
+        }
+        .icon{
+            color: var(--color-white);
+            font-size: 4.8em;
+        }
+    }
+}

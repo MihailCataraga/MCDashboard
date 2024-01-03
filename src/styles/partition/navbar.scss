@@ -1,0 +1,96 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+    padding: 0;
+    width: calc(100% - 370px);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    border: 1px solid var(--background-color);
+    z-index: 999;
+    .page{
+        z-index: 2;
+        margin-left: 5px;
+        .page-src{
+            display: flex;
+            align-items: center;
+            .icon{
+                font-size: 1.2em;
+                color: var(--color-gray);
+                margin-right: 5px;
+            }
+            h4{
+                color: var(--color);
+                font-weight: 500;
+            }
+        }
+        h3{
+            color: var(--color-white);
+        }
+    }
+    .options{
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        .search{
+            display: flex;
+            align-items: center;
+            border-radius: 15px;
+            .icon{
+                color: var(--color-gray);
+                border-top: 1px solid #1a255a;
+                border-left: 1px solid #1a255a;
+                border-bottom: 1px solid #1a255a;
+                border-radius: 15px 0 0 15px;
+                padding: 5px 5px 5px 10px;
+                background-color: var(--background-color);
+            }
+            .input{
+                background-color: var(--background-color);
+                border: none;
+                outline: none;
+                color: var(--color-gray);
+                font-weight: 500;
+                padding: 9px 2px;
+                border-top: 1px solid #1a255a;
+                border-right: 1px solid #1a255a;
+                border-bottom: 1px solid #1a255a;
+                border-radius: 0 15px 15px 0;
+                &:focus{
+                    padding: 8px 0 8px 10px;
+                    border: 2px solid var(--icon-background-color);
+                    animation-name: search-anime;
+                    animation-duration: .2s;
+                }
+            }
+        }
+        button{
+            background-color: transparent;
+            border: none;
+            display: flex;
+            align-items: center;
+            font-size: .9em;
+            color: var(--color-white);
+            cursor: pointer;
+            .icon{
+                margin-right: 2px;
+            }
+        }
+    }
+}
+
+
+@keyframes search-anime {
+    from{
+        padding: 9px 2px;
+        border-top: 1px solid #1a255a;
+        border-right: 1px solid #1a255a;
+        border-bottom: 1px solid #1a255a;
+    }
+    to{
+        padding: 8px 0 8px 10px;
+        border: 2px solid #3f3fbb;
+    }
+}
