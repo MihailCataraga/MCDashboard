@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MCDashboard/static/css/main.3178129a.css",
+    "main.js": "/MCDashboard/static/js/main.8786a162.js",
+    "static/media/body-background.png": "/MCDashboard/static/media/body-background.9e7d96f6af5373ca1771.png",
+    "static/media/welcome-profile.png": "/MCDashboard/static/media/welcome-profile.309ed05e3af3dbed8af1.png",
+    "static/media/cardimgfree.png": "/MCDashboard/static/media/cardimgfree.5771cbbb24b706daa64a.png",
+    "index.html": "/MCDashboard/index.html",
+    "main.3178129a.css.map": "/MCDashboard/static/css/main.3178129a.css.map",
+    "main.8786a162.js.map": "/MCDashboard/static/js/main.8786a162.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3178129a.css",
+    "static/js/main.8786a162.js"
+  ]
+}
